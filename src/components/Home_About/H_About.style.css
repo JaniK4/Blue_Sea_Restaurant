@@ -1,0 +1,77 @@
+/* Home About Us Start */
+
+.H_About{
+    padding-right: 3em;
+    padding-bottom:15%;
+    padding-top: 10%;
+    padding-left: 1em;
+    overflow: hidden;
+  }
+  .in_ah{
+    color: rgb(8, 51, 87);
+    text-shadow: rgb(70, 113, 145) 2px 2px 2px ;
+    font-weight: bolder;
+    text-align:center;
+    padding-bottom: 1em;
+    padding-top: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  .i_ap{
+    padding-right: 2em;
+    text-align: left;
+  }
+  .about_desc{
+    margin-right: 7%;
+  }
+  .about_desc  p{
+    text-align: justify !important;
+    margin-top: 0;
+    margin-left: 1em;
+    margin-bottom: 1rem;
+    font-weight: 600;
+  }
+
+  
+.about_desc > div {
+    display: flex;              
+    justify-content: center;    
+    overflow: hidden;           
+}
+
+.in_aimg {
+    
+    margin: 15% auto;            /* Center the image */
+    display: block;            /* Make it block element */
+    width: 100%;               /* Full width for responsiveness */
+    border-radius: 50px;       /* Maintain the border-radius */
+    object-fit: cover;          /* Ensures the image fits well */
+}
+
+@media screen and (max-width: 800px) {
+    .H_About {
+        padding-right: 1em;  
+    }
+
+    .in_aimg {
+        width: 90%;          /* Adjust width if needed */
+        border-radius: 50px; /* Ensure border-radius is set */
+    }
+}
+
+  
+  @media screen and (max-width:800px) {
+    .H_About{
+      padding-right: 1em;
+    }
+    .in_ah{
+      padding-left: 10%;
+    }
+    .about_desc  p{
+      margin-left: 1em;
+      margin-bottom: 1rem;
+      margin-right: 0;
+    }
+
+  }
+  
+  /* Home About Us End */

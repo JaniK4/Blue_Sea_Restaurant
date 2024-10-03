@@ -1,0 +1,77 @@
+.logo{
+    height: 70px;
+    margin-left: 3%;
+}
+.shadow-sm{
+  background-color: rgb(28, 54, 77);
+}
+
+.navbar{
+    height: 5em;
+    background-color: rgb(28, 54, 77);
+}
+
+.navbar-dark .navbar-toggler {
+    border-color: #dee6f1; /* Border color of the toggle button */
+}
+
+ .navbar-collapse {
+   background-color: rgb(28, 54, 77);  
+    margin-top: -8px;
+    margin-left: -15px;
+    margin-right: -15px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 0;
+  }
+  
+  /* Style for NavLinks inside the expanded menu */
+ .navbar-nav .nav-link {
+    color: #fff; /* Text color for NavLinks */
+    display: flex;
+  flex-direction: column; /* Stack nav items vertically */
+  align-items: center; /* Center nav items horizontally */
+ 
+  }
+  
+  /* Style for NavLinks when hovered or active */
+  /* .navbar-dark .navbar-nav .nav-link:hover,
+  .navbar-dark .navbar-nav .nav-link:focus {
+    background-color: #495057;
+  }
+   */
+
+/* #nav-bl{
+  padding-left: 50%;
+} */
+.nav-block {
+  margin-left: auto; /* Pushes the nav-block to the right */
+  margin-right: 3%;
+}
+.nav-item{
+    margin: 10px;
+}
+
+@media screen and (max-width: 900px) {
+  #nav-bl{
+        padding-left:0 ;
+        text-align: center;
+        margin: 15px;
+    }
+}
+
+  .nav-link {
+    color: #eceef5 !important; /* Lightens the link color */
+    transition: color 0.3s ease; /* Smooth transition for color changes */
+    border-bottom: 2px solid transparent !important; /* Transparent border by default */
+    padding-bottom: 3px; /* Adds space to ensure the border doesn't overlap text */
+    font-weight: 400;
+    
+  }
+  
+  .nav-link:hover {
+    color: #83aee4 !important; /* Changes link color on hover */
+    border-bottom: 3px solid rgb(68, 142, 185) !important; /* Blue bottom border on hover */
+  }

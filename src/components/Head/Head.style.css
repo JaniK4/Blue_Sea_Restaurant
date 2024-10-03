@@ -1,0 +1,57 @@
+.ab_pic {
+  background: url('../images/home_dark.jpg') no-repeat center center fixed;
+  background-size: cover;
+  padding: 8% 0;
+  margin-top: 5%;
+}
+
+.ab_h {
+  font-weight: bolder;
+  color: white;
+  text-shadow: 2px 2px 2px rgba(101, 147, 182, 0.8);
+}
+
+.about_desc {
+  padding-left: 8%;
+}
+
+.breadcrumb {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+  color: #acc6e0;
+}
+
+.homeA a {
+  text-decoration: none;
+  font-weight: bolder;
+  color: inherit; /* Ensures the link inherits the text color */
+}
+
+.arrow {
+  margin-bottom:  5px;
+  margin-left: 4px;
+  margin-right: 4px;
+  width: 20px;
+}
+
+.current-page {
+  font-weight: bolder;
+}
+
+/* Responsive adjustments */
+@media (max-width: 500px) {
+  .ab_pic {
+      padding: 10% 0;
+      margin-top: 15%;
+  }
+
+  .about_desc {
+      padding-left: 5%;
+  }
+
+  .arrow {
+      width: 15px;
+  }
+}

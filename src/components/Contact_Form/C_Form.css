@@ -1,0 +1,86 @@
+#contact{
+    margin: 3%;
+}
+.con_div{
+    padding-top: 5%;
+    padding-bottom: 5%;
+    overflow-x: hidden;
+}
+.Contact_H{
+    color: rgb(8, 51, 87);
+    text-shadow: rgb(70, 113, 145) 2px 2px 2px ;
+    font-weight: bolder;
+    text-align:center;
+    padding-top: 1.5em;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#address{
+    padding-left: 5%;
+    text-align: justify;
+}
+.con_main {
+    list-style-type: none;
+    padding: 4em;
+    /* margin-left: 2em;
+    margin-right:2em; */
+    
+}
+.con_info{
+    justify-content: left;
+}
+
+.con_h{
+    font-weight: bolder;
+    text-shadow: #223572 1px 1px 2px;
+}
+.address{
+  margin-right: 6em;
+  font-weight: bold;
+}
+.ad_con{
+    font-weight: bold;
+}
+#forms{
+    padding-left: 2.2em;
+}
+.form-floating{
+    float: left;
+    margin: 15px 0px  15px  ;
+    margin-left: 10%;
+    width: 70%;
+    border-radius: 5px; 
+    
+}
+.form-floating button{
+    padding: 3%;
+    margin: 1px;
+    font-weight: bolder;
+    font-size: large;
+    background-color: rgb(8, 51, 87);
+    width: 25%;
+}
+.form-floating button:hover{
+    background-color: rgb(12, 75, 126);
+}
+
+/* form textarea {
+    width: 350px;
+    height: 150px;
+} */
+
+
+.sub-btn {
+    text-align: center;
+    font-size: 1em;
+    
+  }
+  
+  [type="submit"] {
+    clear: left;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 10px;
+    width: 35% !important; /* Increase the width percentage */
+  }
+  

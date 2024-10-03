@@ -1,0 +1,54 @@
+/* Home_Menu */
+@import url('https://fonts.googleapis.com/css2?family=Asap+Condensed:wght@200&display=swap');
+#menu_card{
+    padding-top: 5%;
+    padding-bottom: 10%;
+    text-align: center;
+    background-color: rgb(135, 168, 194);
+    background: linear-gradient(180deg,rgb(6, 31, 51),rgb(135, 168, 194));
+    font-family: 'Asap Condensed', sans-serif;
+  }
+  .mc_h{
+      color: rgb(90, 157, 209);
+      text-shadow: black 3px 2px 3px ;
+      font-weight: bolder;
+      text-align:center;
+      padding-top: 1.5em;
+      padding-bottom: 0.5em;
+      font-family: 'Asap Condensed', sans-serif;
+  }
+  .h_col{
+    padding: 50px;
+  }
+  .HCard{
+    padding: 0px;
+    margin: 0px;
+    box-shadow: 3px 3px 2px rgb(3, 24, 41);
+  }
+  
+#MenuH_Image{
+  height: 190px;
+}
+  .m_Title{
+    font-weight: bold;
+    padding: 0.7em;
+  }
+  .VH_menu{
+    margin: 0.5em;
+    background-color: rgb(31, 95, 145);
+    color: white; 
+    box-shadow: 3px 3px 4px rgb(19, 31, 41);
+    text-decoration: none;
+    
+  }
+  .VH_btn{
+    font-family: 'Asap Condensed', sans-serif;
+    font-weight: 300;
+  }
+  .VH_menu:hover{
+    background-color: rgb(14, 61, 100);
+    color: white;
+    box-shadow: 3px 3px 4px rgb(19, 31, 41);
+    
+  } 
+  /* Home Menu End */

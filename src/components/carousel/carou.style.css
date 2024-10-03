@@ -1,0 +1,59 @@
+
+
+.carousel-item {
+    height: auto; /* Set a fixed height */
+    /* display: flex;  */
+    align-items: center; 
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+  }
+  
+  .Carousel_image {
+    width: 100%;
+    /* height: auto; */
+    /* max-height: 100%; Ensure image doesn't exceed the Container height */
+    height: 100vh;
+    object-fit: cover;
+  }
+  
+  .carTitle{
+    
+    font-weight: bolder;
+  }
+  .carDesc{
+    font-weight:bolder
+  }
+  .centered {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: rgb(226, 235, 253);
+    text-align: center;
+    background-color: rgba(0,0,0,.4);
+    padding: 4%;
+    border-radius: 100%;
+    /* opacity: 0.5; */
+    /* filter: blur(5px);
+  -webkit-filter: blur(8px); */
+  }
+
+
+
+  @media screen and (max-width:800px) { 
+    .carousel-item{
+      height: 50vh;
+    }
+  }
+
+
+
+
+  .carousel-control-prev,
+.carousel-control-next {
+    width: 50px; /* Adjust the width of the buttons */
+    height: 50px; /* Adjust the height of the buttons */
+     /* Center vertically */
+    transform: translateY(10em); /* Move buttons down */
+}

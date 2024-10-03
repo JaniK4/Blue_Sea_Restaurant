@@ -1,0 +1,56 @@
+#menu{
+    overflow-x: hidden;
+}
+.menu-section {
+    margin-bottom: 50px;
+}
+.foodHead{
+    font-family: 'Ubuntu', sans-serif;
+    color: rgb(8, 51, 87);
+    text-shadow: rgb(70, 113, 145) 2px 2px 2px ;
+    font-weight: bolder;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+.col-md-4 {
+    margin-bottom: 10px; /* Ensure space between rows */
+    
+}
+
+.card {
+    text-align: center;
+    border: none;
+    box-shadow: 10px 10px 9px rgba(0, 0, 0, 0.1);
+    margin: 10%;
+    margin-bottom: 20px; /* Add space between rows of cards */
+}
+
+.card:hover {
+    background-color: #cfd9eb;
+}
+
+.foodImage {
+    padding: 10%;
+    max-width: 100%;
+    max-height: 300px;
+}
+
+.card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(8, 51, 87);
+}
+
+.card-text {
+    color: #555;
+    font-weight: bold;
+    padding-right: 10%;
+    padding-left: 10%;
+}
+
+.card-price {
+    font-size: 1.7rem;
+    font-weight: bolder;
+    color: #1c489b;
+}

@@ -1,0 +1,63 @@
+/* R_Gallery.css */
+
+.gal_h {
+  color: rgb(8, 51, 87);
+  text-shadow: rgb(70, 113, 145) 2px 2px 2px;
+  font-weight: bolder;
+  text-align: center;
+  padding-bottom: 1em;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.gallery-Container {
+  margin: 0 auto;
+  padding-top: 10%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 10%;
+  
+  max-width: 1200px; /* Adjust based on your layout */
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+.img-fluid {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Maintain same width for images */
+.gallery-item {
+  width: 100%; /* Ensures full width for column */
+  padding: 0; /* Remove padding to avoid extra spacing */
+}
+
+/* Zoom effect */
+.zoom {
+  transition: transform 0.5s ease; /* Smooth zoom effect */
+}
+
+.zoom:hover {
+  transform: scale(1.1); /* Zoom in effect */
+}
+
+/* Responsive grid setup */
+@media (min-width: 576px) { /* Extra small devices */
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) { /* Medium devices */
+  .col-lg-4 {
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}

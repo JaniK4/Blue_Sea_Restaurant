@@ -1,0 +1,56 @@
+.facilities{
+    background-image: url(../images/home_dark.jpg) ;
+    background-position: absolute;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    padding: 10%;
+    padding-top: 15%;
+    padding-bottom: 15%;
+    
+}
+
+.fac_h{
+    text-align: center;
+    color: rgb(94, 186, 252);
+    text-shadow: rgb(70, 113, 145) 2px 2px 2px ;
+    font-weight: bolder;
+    padding-bottom: 1em;
+}
+.fac_row{
+    margin-top: 2%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    text-align: justify;
+    
+}
+.fac_desc{
+    border: rgb(56, 70, 77) 1px solid ;
+    background-color: rgb(12, 15, 17, 0.6);
+    border-radius: 5%;
+    font-weight: bold;
+    padding: 3%;
+    margin-right: 5%;
+}
+.fac_dH{
+    text-align: center;
+    color: rgb(162, 186, 250) ;
+    text-shadow: rgb(99, 128, 150) 5px 5px 5px ;
+    padding-bottom: 3%;
+}
+.fac_p{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+}
+
+@media screen and (max-width:800px) {
+    .fac_row{
+        padding-left: 15%;
+        padding-right: 10%;
+    }
+}
